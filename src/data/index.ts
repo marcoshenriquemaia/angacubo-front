@@ -51,7 +51,7 @@ export const rankingAo3 = [
     time: "01:22:83",
   },
   {
-    name: "Nina",
+    name: "Clarice",
     time: "01:27:07",
   },
   {
