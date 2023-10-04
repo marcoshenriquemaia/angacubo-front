@@ -1,4 +1,4 @@
-import { Player, Controls } from '@lottiefiles/react-lottie-player'
+import { Player } from '@lottiefiles/react-lottie-player'
 import { RankingItem } from '../Ranking'
 import * as S from './styles'
 

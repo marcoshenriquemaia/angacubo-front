@@ -13,7 +13,7 @@ interface RankingProps {
 
 export const Ranking = ({ title, ranking }: RankingProps) => {
   return <div>
-    <h2>{title}</h2>
+    <S.Title>{title}</S.Title>
     <S.Container initial="hidden" animate="visible" variants={{
       visible: {
         opacity: 1, transition: {

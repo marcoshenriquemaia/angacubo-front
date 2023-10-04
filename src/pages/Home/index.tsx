@@ -8,7 +8,7 @@ export const Home = () => {
     <ContainerCenter>
       <S.Main>
         <Ranking title="Single 3x3x3" ranking={rankingSingle} />
-        <Ranking title="Single AO3" ranking={rankingAo3} />
+        <Ranking title="AO3 3x3x3" ranking={rankingAo3} />
       </S.Main>
     </ContainerCenter>
   )
