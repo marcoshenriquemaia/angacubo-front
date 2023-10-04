@@ -1,6 +1,7 @@
 import { Player } from '@lottiefiles/react-lottie-player'
 import { RankingItem } from '../Ranking'
 import * as S from './styles'
+import lottieData from '../../lotties/animation_lnccoiul.json'
 
 export const RankingCard = ({ position, rankingItem }: { position: number, rankingItem: RankingItem }) => {
 
@@ -11,7 +12,7 @@ export const RankingCard = ({ position, rankingItem }: { position: number, ranki
     {position === 0 && <Player
       autoplay
       loop
-      src="src/lotties/animation_lnccoiul.json"
+      src={lottieData}
       style={{ height: '100px', width: '40px' }}
     />}
     {position !== 0 && <S.Position>{position + 1}</S.Position>}
