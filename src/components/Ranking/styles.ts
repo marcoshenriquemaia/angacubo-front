@@ -10,4 +10,5 @@ export const Container = styled(motion.ol)`
 export const Title = styled.h2`
   text-align: center;
   font-size: 40px;
+  color: #eee;
 `;
