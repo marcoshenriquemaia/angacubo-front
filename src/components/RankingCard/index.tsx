@@ -7,7 +7,7 @@ export const RankingCard = ({ position, rankingItem }: { position: number, ranki
     visible: { opacity: 1, y: 0 },
     hidden: { opacity: 0, y: -100 },
   }} >
-    <S.Position>{position + 1}</S.Position>
+    <S.Position>{position + 1}º</S.Position>
     <S.Name>{rankingItem.name}</S.Name>
     <S.Time>{rankingItem.time}</S.Time>
   </S.Container>
