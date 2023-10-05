@@ -23,6 +23,7 @@ export const Container = styled(motion.li)<{ position: number }>`
   border-radius: 10px;
   background: ${({ position }) => getColor(position)};
   text-shadow: 2px 2px 2px #0000004d;
+  overflow: hidden;
 `;
 
 export const Name = styled.span`
